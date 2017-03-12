@@ -13,7 +13,7 @@ var datosGasolina = [
     {"nombre": "hola p", "precio": "15.000", "tipo": "urbana", "img": "http://localhost:3000|/img/moto-03.jpg"},
     {"nombre": "aesoeso", "precio": "15.000", "tipo": "urbana", "img": "http://localhost:3000/img/moto-03.jpg"},
     {"nombre": "aeeeeedf", "precio": "15.000", "tipo": "deportivas", "img": "http://localhost:3000/img/moto-03.jpg"},
-    {"nombre": "rrrrr", "precio": "15.000", "tipo": "turismo", "img": "http://localhost:3000/img/moto-03.jpg"},
+    {"nombre": "rrrrr", "precio": "12.000", "tipo": "turismo", "img": "http://localhost:3000/img/moto-03.jpg"},
     {"nombre": "eeeeee", "precio": "15.000", "tipo": "motocross", "img": "http://localhost:3000/img/moto-03.jpg"},
     {"nombre": "tttttt", "precio": "15.000", "tipo": "todot", "img": "http://localhost:3000/img/moto-03.jpg"}
 ];
