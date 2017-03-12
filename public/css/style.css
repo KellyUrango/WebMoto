@@ -1,0 +1,297 @@
+/* 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*/////////////////////////////////////////////////////////////////////////*/
+
+@font-face {
+  font-family: "COCOGOOSE";
+  src: url("font/Cocogoose_trial.otf");
+}
+
+html {
+    font-family: "COCOGOOSE";
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+}
+
+body{
+
+}
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #4e3c3e;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+a:focus{
+    text-decoration: none;
+}
+/*
+.header{
+ background: url('../img/bannerP.png') no-repeat center center;
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover; background-size: cover;
+    padding: 250px 0 0 0; 
+    margin-left: 50px;
+    width: 100%;
+    height: auto; 
+}*/
+
+.header{
+    /*z-index: 100;*/
+    /*box-shadow:0px 4px 14px -3px rgba(0,0,0,0.67);*/  
+}
+
+.header img{  
+    max-height:1920px;
+    width: 100%;
+    height: auto;  
+}
+.header .banner{
+    position: relative
+    margin-top: -1800px;
+}
+
+.header .imagenAbajo{
+    position:  absolute;  
+}
+
+.imagenFooter{
+ width: 100%;
+ height: auto;
+}
+
+/*MENU//////////////////////////////////////////////////////////////////////*/
+
+
+.sectionMenu {
+    position: relative;
+    margin-top: -3px;
+    display:flex;
+    width:100%;
+    height: auto;
+    background: #0C1E2B;
+    /*position: fixed;*//* paraque baje con el scrool*/
+    /*z-index: 999;*/
+    box-shadow: inset 0px 19px 19px -12px rgba(0,0,0,0.40); 
+}
+
+.menu{
+    line-height: 1;
+    margin: 0px auto 0;
+    display: block;
+}
+
+.menuList {
+    position: relative;
+    display: flex;
+}
+
+.menuLink {
+    position: relative;
+    display: block;
+    text-align: center;
+    top: 20px; 
+    color: #fff;
+    width: 127px;
+    height: 58px;
+}
+.menuItem:hover {
+    background: url('../img/link.png');
+    width: 127px;
+    height: 58px;
+}
+
+.menuCurrent{
+    background: url('../img/link.png'); 
+    width: 127px;
+    height: 58px;
+}
+
+
+/*CLASE DE MOTO/////////////////////*/    
+.tipoMotos{
+    width: 100%;
+    height: auto;
+    padding: 190px 0 100px;
+    text-align: center;
+    background: #fff;
+}
+
+article{
+    width: 33%;
+    display:  inline-block;
+    min-width: 400px;
+}
+
+/*FOOTER: ;//////////////////////////////////////////////////////////////////////*/
+.imagenFooter{
+ width: 100%;
+ height: auto;
+}
+
+
+@media screen and (max-width:55em) {
+    .menuList {
+        display: block;
+        margin: 0 auto;
+        font-size: 10px;
+    }
+    .sectionMenu {
+    background-image: url("../img/menu-05.png");
+    background-repeat: no-repeat; 
+}
+    
+/*CLASE DE MOTO/////////////////////*/    
+    .tipoMotos h2{
+    margin: 8px 98px 10px;
+    padding: 0px;
+    text-align: left;
+    font-size: 15px;
+}
+    .tipoMotos img{
+        width: 50%;
+        height: auto;
+    }
+   
+}
+@media screen and (min-width:56em) {
+   .sectionMenu {
+    background-image: url("../img/menu.png");
+    background-repeat: no-repeat; 
+       
+}
+    .tipoMotos h2{
+    margin: 8px 28px 10px;
+    padding: 0px;
+    text-align: left;
+    font-size: 30px;
+}
+
+}
+@media screen and (min-width:80em) {
+    .tipoMotos h2{
+    margin: 8px 48px 10px;
+    padding: 0px;
+    text-align: left;
+    font-size: 30px;
+}
+
+}
+.sectionFiltro {
+    position: relative;
+    margin-top: 3px;
+    width:100%;
+    height: auto;
+    background: #F6F6F6;
+    box-shadow: inset 0px 19px 19px -12px rgba(0,0,0,0.40); 
+}
+.sectionFiltro a{
+    color: #0C1E2B;
+    font-size: 12px;
+}
+.sectionFiltro .menuCurrent{
+    background: url('../img/link-02.png'); 
+    width: 127px;
+    height: 58px;
+}
+.List {
+    position: relative;
+    display:flex;
+}
+
+.sectionFiltro .menuItem:hover {
+    background: url('../img/link-02.png');
+    width: 127px;
+    height: 58px;
+}
+
+.motosFotos{
+    width: 100%;
+    height: auto;
+    padding: 190px 0 100px;
+    text-align: center;
+    background: #fff;
+}
+
+.motosFotos article{
+    width: 33%;
+    display:  inline-block;
+    min-width: 400px;
+}
+
+.nombre{
+    margin: -25px 0px 0px 90px;
+    font-size: 12px;
+    color: #fff;
+    text-align: left;
+}
+.precio{
+
+    margin: -25px 0px 0px 120px;
+    font-size: 12px;
+    color: #fff;
+    text-align: left;
+
+}

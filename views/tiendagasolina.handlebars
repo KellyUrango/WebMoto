@@ -1,0 +1,45 @@
+
+<section class="sectionMenu">
+<nav class="menu">
+
+
+    <ul class="menuList">
+
+        <li class="menuItem"><a class="menuLink" href="/">HOME</a></li>
+        <li class="menuCurrent"><a class="menuLink" href="/tiendaelectrica">TIENDA</a></li>
+        <li class="menuItem "><a class="menuLink" href="/contacto">CONTÁCTO</a></li>
+
+    </ul>
+
+</nav>
+
+</section>
+
+<section class="sectionFiltro">
+    <nav class="menu">
+
+        <ul class="List">
+
+            <li class="menuCurrent"><a class="menuLink" href="/tiendagasolina">Motos Gasolina</a></li>
+            <li class="menuItem" ><a class="menuLink" href="/tiendagasolina/urbana">Urbanas</a></li>
+            <li class="menuItem"><a class="menuLink" href="/tiendagasolina/deportivas">Deportivas</a></li>
+            <li class="menuItem"><a class="menuLink" href="/tiendagasolina/turismo">Turismo</a></li>
+            <li class="menuItem"><a class="menuLink" href="/tiendagasolina/motocross">Motocross</a></li>
+            <li class="menuItem"><a class="menuLink" href="/tiendagasolina/todot">Todo Terreno</a></li>
+
+        </ul>
+    </nav>
+</section>
+<section class="motosFotos">
+
+
+ {{#each pollito}}
+     <article>
+         <p><img src="{{img}}"></p>
+         <p class="nombre">{{nombre}}</p>
+         <P class="precio">{{precio}}</P>
+     </article>
+ {{/each}}
+
+
+</section>
