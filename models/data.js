@@ -2,21 +2,23 @@
  * http://usejsdoc.org/
  */
 var datosElectrica = [
-    {"nombre": "ffffffffffff", "precio": "15.000", "tipo": "sport", "img": "http://localhost:3000/img/electrica/sp1-01.jpg"},
-    {"nombre": "ffffffffffff", "precio": "15.000", "tipo": "sport", "img": "http://localhost:3000/img/electrica/sp2-01.jpg"},
-    {"nombre": "ffffffffffff", "precio": "15.000", "tipo": "sport", "img": "http://localhost:3000/img/electrica/sp3-01.jpg"},
+    {"nombre": "Maker", "precio": "5.950.000", "tipo": "sport", "img": "http://localhost:3000/img/electrica/sp1-01.jpg"},
+    {"nombre": "Intrepid", "precio": "8.100.000", "tipo": "sport", "img": "http://localhost:3000/img/electrica/sp2-01.jpg"},
+    {"nombre": "Forest", "precio": "8.100.000", "tipo": "sport", "img": "http://localhost:3000/img/electrica/sp3-01.jpg"},
 
 
-    {"nombre": "agggggggggg", "precio": "15.000", "tipo": "scooter", "img": "http://localhost:3000/img/electrica/sc1-01.jpg"},
-    {"nombre": "agggggggggg", "precio": "15.000", "tipo": "scooter", "img": "http://localhost:3000/img/electrica/sc2-01.jpg"},
-    {"nombre": "agggggggggg", "precio": "15.000", "tipo": "scooter", "img": "http://localhost:3000/img/electrica/sc2-01.jpg"},
+    {"nombre": "Climate", "precio": "3.400.000", "tipo": "scooter", "img": "http://localhost:3000/img/electrica/cs1-01.jpg"},
+    {"nombre": "Ocean", "precio": "5.790.000", "tipo": "scooter", "img": "http://localhost:3000/img/electrica/cs2-01.jpg"},
+    {"nombre": "Emax", "precio": "$5.450.000", "tipo": "scooter", "img": "http://localhost:3000/img/electrica/cs3-01.jpg"},
 
-    {"nombre": "aslddddd", "precio": "15.000", "tipo": "urbana", "img": "http://localhost:3000/img/electrica/ur1-01.jpg"},
-    {"nombre": "aslddddd", "precio": "15.000", "tipo": "urbana", "img": "http://localhost:3000/img/electrica/ur1-01.jpg"},
-    {"nombre": "aslddddd", "precio": "15.000", "tipo": "urbana", "img": "http://localhost:3000/img/electrica/ur1-01.jpg"},
+    {"nombre": "Neon", "precio": "4.300.000", "tipo": "urbana", "img": "http://localhost:3000/img/gasolina/urUna-01.jpg"},
+    {"nombre": "Impresiver", "3.850.000": "15.000", "tipo": "urbana", "img": "http://localhost:3000/img/gasolina/urDos-01.jpg"},
+    {"nombre": "SZ-RR", "precio": "4.990.000", "tipo": "urbana", "img": "http://localhost:3000/img/gasolina/urTres-01.jpg"},
 
 
-    {"nombre": "fsdfsd", "precio": "15.000", "tipo": "escala", "img": "http://localhost:3000/img/electrica/es1-01.jpg"}
+    {"nombre": "ATV mini", "precio": "1.350.000", "tipo": "escala", "img": "http://localhost:3000/img/electrica/as1-01.jpg"},
+    {"nombre": "Cross mini", "precio": "1.190.000", "tipo": "escala", "img": "http://localhost:3000/img/electrica/as2-01.jpg"},
+    {"nombre": "Climate mini", "precio": "950.000", "tipo": "escala", "img": "http://localhost:3000/img/electrica/as3-01.jpg"}
 
 ];
 
