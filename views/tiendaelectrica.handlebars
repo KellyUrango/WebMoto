@@ -30,12 +30,13 @@
 </section>
 <section class="motosFotos">
 
-
  {{#each pollito}}
      <article>
-         <p><img src="{{img}}"></p>
-         <p class="nombre">{{nombre}}</p>
-         <P class="precio">{{precio}}</P>
+         <ul>
+             <li> <a href="#"><img src="{{img}}">
+                 <p class="nombre">{{nombre}} &nbsp;&nbsp; {{precio}}</p> </a> </li>
+         </ul>
+
      </article>
  {{/each}}
 

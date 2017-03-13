@@ -19,14 +19,12 @@
     <nav class="menu">
 
         <ul class="List">
-
             <li class="menuCurrent"><a class="Link" href="/tiendagasolina">Motos Gasolina</a></li>
             <li class="menuItem" ><a class="Link" href="/tiendagasolina/urbana">Urbanas</a></li>
             <li class="menuItem"><a class="Link" href="/tiendagasolina/deportivas">Deportivas</a></li>
             <li class="menuItem"><a class="Link" href="/tiendagasolina/turismo">Turismo</a></li>
             <li class="menuItem"><a class="Link" href="/tiendagasolina/motocross">Motocross</a></li>
             <li class="menuItem"><a class="Link" href="/tiendagasolina/todot">  Todo Terreno</a></li>
-
         </ul>
     </nav>
 </section>
@@ -35,9 +33,11 @@
 
  {{#each pollito}}
      <article>
-         <p><img src="{{img}}"></p>
-         <p class="nombre">{{nombre}}</p>
-         <P class="precio">{{precio}}</P>
+         <ul>
+             <li> <a href="#"><img src="{{img}}">
+                 <p class="nombre">{{nombre}} &nbsp;&nbsp; {{precio}}</p> </a> </li>
+         </ul>
+
      </article>
  {{/each}}
 

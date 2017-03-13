@@ -173,6 +173,7 @@ a:focus{
     padding: 190px 0 100px;
     text-align: center;
     background: #fff;
+    
 }
 
 article{
@@ -183,6 +184,7 @@ article{
 
 /*FOOTER//////////////////////////////////////////////////////////////////////*/
 .imagenFooter{
+margin-top: 30px;
  width: 100%;
  height: auto;
 }
@@ -230,7 +232,8 @@ article{
 .motosFotos{
     width: 100%;
     height: auto;
-    text-align: center;
+    margin-left:6%;
+    text-align: left;
     background: #fff;
 }
 .motosFotos img{
@@ -242,27 +245,30 @@ article{
 .motosFotos article{
     width: 33%;
     display:  inline-block;
-    min-width: 400px;
     margin-top: 50px;
 }
 
 .nombre{
-    margin: -25px 0px 0px 90px;
+    display: block;
     font-size: 12px;
     color: #fff;
     text-align: left;
+    margin-left: 2%;
+    margin-top: -6%;
 }
-.precio{
-    margin: -25px 0px 0px 120px;
-    font-size: 12px;
-    color: #fff;
-    text-align: left;
 
-}
 
 /* M E D I A  Q //////////////////////////
 ////////////////////////////////////////*/
 
+
+
+@media screen and (max-width:51em) {
+    .motosFotos{
+    margin-left: 30%;
+    text-align: left;
+}
+}
 @media screen and (max-width:55em) {
     .menuList {
         display: block;
@@ -285,10 +291,11 @@ article{
     
 /*CLASE DE MOTOs Inicio/////////////////////*/    
     .tipoMotos h2{
-    margin: 8px 98px 10px;
+    margin: 8px 28px 10px;
     padding: 0px;
     text-align: left;
-    font-size: 15px;
+    font-size: 20px;
+        color: #0C1E2B;
 }
     
 /*MOTOS TIEMDA========*/    
@@ -316,6 +323,7 @@ article{
     padding: 0px;
     text-align: left;
     font-size: 30px;
+    color: #0C1E2B;
 }
     
     
@@ -325,6 +333,16 @@ article{
     height: auto;
     box-shadow: 1px 1px 25px 2px rgba(0,0,0,0.38);
 }
+    
+    .nombre{
+    display: block;
+    font-size: 15px;
+    color: #fff;
+    text-align: left;
+    margin-left: 2%;
+    margin-top: -8%;
+}
+
 
 }
 
@@ -338,6 +356,7 @@ article{
     padding: 0px;
     text-align: left;
     font-size: 30px;
+    color: #0C1E2B;
 }
 
 }
