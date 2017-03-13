@@ -42,7 +42,7 @@ app.get('/tiendaelectrica/:categoria', function(req, res, next){
 
 // rutas para contacto
 app.get('/contacto', function(req,res,next){
-	res.render('contacto', {users:data.getAll()});
+	res.render('contacto');
 });
 
 
